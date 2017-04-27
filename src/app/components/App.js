@@ -1,14 +1,18 @@
 "use strict";
 
 import React from 'react';
-import { BroswerRouter as Router, Link, Match, Miss } from 'react-router';
 
 import styles from '../styles/App.css';
+
+import Main from "./Main"
 
 export default class App extends React.Component {
   render () {
     return (
-      <h1>You are rendering!</h1>
+      <div>
+        <h1>Diet Types</h1>
+        <Main />
+      </div>
     )
   }
 }
